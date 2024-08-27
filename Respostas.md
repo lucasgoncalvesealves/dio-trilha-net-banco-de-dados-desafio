@@ -20,7 +20,7 @@
 
 10. SELECT Filmes.Nome, Generos.Genero FROM ((Filmes INNER JOIN FilmesGenero ON Filmes.Id = FilmesGenero.IdFilme) INNER JOIN Generos ON Generos.Id = FilmesGenero.IdGenero)
 
-11. 	SELECT Filmes.Nome, Generos.Genero FROM ((Filmes INNER JOIN FilmesGenero ON Filmes.Id = FilmesGenero.IdFilme) INNER JOIN Generos ON Generos.Id = FilmesGenero.IdGenero) WHERE Generos.Genero = 'Mistério'
+11. SELECT Filmes.Nome, Generos.Genero FROM ((Filmes INNER JOIN FilmesGenero ON Filmes.Id = FilmesGenero.IdFilme) INNER JOIN Generos ON Generos.Id = FilmesGenero.IdGenero) WHERE Generos.Genero = 'Mistério'
 
 12. SELECT Filmes.Nome, Atores.PrimeiroNome, Atores.UltimoNome, ElencoFilme.Papel FROM
 ((ElencoFilme INNER JOIN Filmes ON ElencoFilme.IdFilme = Filmes.Id)
