@@ -1,4 +1,4 @@
-# RESPOSTAS
+# Respostas
 
 1. SELECT nome, ano FROM Filmes
 
